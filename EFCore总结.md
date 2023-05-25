@@ -259,6 +259,5 @@ public class EFLearnDbContext: DbContext
         Console.WriteLine($"StudentId:{st.StudentId},Name:{st.Name},City:{st.Address.City}, Address:{st.Address.Address}");
     }
 ```
-学生删除后，发现相关的地址信息，以及选择的课程信息对照表也被删除了，这是由于在设置的EFCore默认了删除的行为为级联的方式。
-
+做了相关测试 请确认
 xinzengji ces nneir
